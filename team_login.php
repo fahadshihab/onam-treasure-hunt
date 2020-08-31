@@ -3,6 +3,7 @@ $servername = "localhost";
 $username = "maveli";
 $password = "maveli";
 $dbname = "ONAMHUNT";
+/*
 $conn = new mysqli($servername, $username, $password, $dbname);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
@@ -20,4 +21,5 @@ if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
     }
 }
 mysqli_close($conn);
+*/
 ?>
