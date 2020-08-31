@@ -19,5 +19,5 @@ function login(name, code){
         }
     };
     xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, true);
-    xhr.send();
+    xhr.send(null);
 }
