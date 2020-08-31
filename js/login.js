@@ -9,7 +9,7 @@ function validate_inputs(){
 
 function login(name, code){
     xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function(){
+    xhr.onload = function(){
         if(xhr.readyState === XMLHttpRequest.DONE && xhr.status == 200){
             if(xhr.responseText == "0"){
                 alert("utharam thettaanu!");
