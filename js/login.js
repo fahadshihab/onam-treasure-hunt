@@ -10,10 +10,12 @@ function validate_inputs(){
 function login(name, code){
     xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
-        if(xhr.responseText == "0"){
-            alert("utharam thettaanu!");
-        }else{
-            window.location.replace("https://parakkampaachil.heromanhua.com/game.html");
+        if(xhr.readyState === XMLHttpRequest.DONE && xhr.status == 200){
+            if(xhr.responseText == "0"){
+                alert("utharam thettaanu!");
+            }else{
+                window.location.replace("https://parakkampaachil.heromanhua.com/game.html");
+            }
         }
     };
     xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, true);
