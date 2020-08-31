@@ -5,7 +5,7 @@ $password = "maveli";
 $dbname = "ONAMHUNT";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
+	echo "failed";
 }
 $team_name = $_REQUEST["team_name"];
 $team_code = $_REQUEST["team_code"];
