@@ -71,7 +71,7 @@
                     <div class="col col-12 col-md-4 text-center">
                         <?php
                             if($_GET["auth"] == "fail"){
-                                echo '<span>ശെരിയായില്ലല്ലോ... ഒന്നുകൂടി ശ്രമിച്ചു നോക്കൂ!!!</span>';
+                                echo '<span class="font-weight-light">ശെരിയായില്ലല്ലോ... ഒന്നുകൂടി ശ്രമിച്ചു നോക്കൂ!!!</span>';
                             }
                         ?>
                         <form method="GET" action="team_login.php">
