@@ -9,6 +9,7 @@ if (!$conn) {
 }
 $team_name = $_GET["team_name"];
 $team_code = $_GET["team_code"];
+echo $team_code;
 /*
 $validator = /^[A-Za-z0-9]+$/;
 if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
