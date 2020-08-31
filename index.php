@@ -71,7 +71,7 @@
                     <div class="col col-12 col-md-4 text-center">
                         <?php
                             if($_GET["auth"] == "fail"){
-                                echo '<script>alert("fail");</script>';
+                                echo '<script>setTimeout(function() { alert("hello world"); }, 1);</script>';
                             }
                         ?>
                         <form method="GET" action="team_login.php">
