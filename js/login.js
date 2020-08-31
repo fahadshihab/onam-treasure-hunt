@@ -10,14 +10,12 @@ function validate_inputs(){
 function login(name, code){
     xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
-        if(this.readyState == 4 && this.status == 200){
-            if(this.responseText == "0"){
-                alert("utharam thettaanu!");
-            }else{
-                alert(this.responseText);
-            }
+        if(xhr.responseText == "0"){
+            alert("utharam thettaanu!");
+        }else{
+            window.location.replace("http://127.0.0.1:8001/game.html");
         }
-    }
-    xhr.open("GET", "https://vapp.heromanhua.com/team_login.php?team_name=" + name +"&team_code=" + code, false);
+    };
+    xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, false);
     xhr.send();
 }
