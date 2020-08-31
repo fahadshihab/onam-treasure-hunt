@@ -58,7 +58,31 @@
             </div>
         </nav>
     </section>
-    
+    <?php
+        if (isset($_POST["submit"])){
+            $servername = "localhost";
+            $username = "maveli";
+            $password = "maveli";
+            $dbname = "ONAMHUNT";
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            if (!$conn) {
+            die("Connection failed: " . mysqli_connect_error());
+            }
+            $team_name = $_POST["team_name"];
+            $team_code = $_POST["team_code"];
+            $validator = /^[A-Za-z0-9]+$/;
+            if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
+                $sql = "SELECT * FROM team_details WHERE team_name = '" . $team_name . "' AND team_code = '" . $team_code . "'";
+                $result = mysqli_query($conn, $sql);
+                if (mysqli_num_rows($result) > 0) {
+                    header("Location: game.php");
+                } else {
+                    header("Location: index.php");
+                }
+            }
+            mysqli_close($conn);
+        }
+    ?>
 
     <section id="home">
         <div class="hero">
@@ -70,7 +94,7 @@
                     </div>
                     <div class="col col-md-4"></div>
                     <div class="col col-12 col-md-4 text-center">
-                        <form method="GET" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
+                        <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="login_name" name="team_name" placeholder="team name">
                             </div>
