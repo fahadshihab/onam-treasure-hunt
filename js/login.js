@@ -13,7 +13,7 @@ function login(name, code){
         if(xhr.responseText == "0"){
             alert("utharam thettaanu!");
         }else{
-            window.location.replace("http://127.0.0.1:8001/game.html");
+            window.location.replace("../game.html");
         }
     };
     xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, false);
