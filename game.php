@@ -33,24 +33,14 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto font-weight-light">
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto active" href="#home">കളിക്കളം</a>
+                        <a class="nav-link smooth-goto active" href="#home">GAMEPLAY</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#about"></a>
+                        <a class="nav-link smooth-goto" href="#about">SCOREBOARD</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#overview">OVERVIEW</a>
+                        <a class="nav-link smooth-goto" href="#overview">LOGOUT</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#faq">FAQ</a>
-                    </li>
-    
-                    <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#team">TEAM</a>
-                    </li>
-                    <!-- <li class="nav-item ">
-                        <a class="nav-link bg-danger rounded text-white smooth-goto but-i" href="#register">REGISTER</a>
-                    </li> -->
                 </ul>
             </div>
         </nav>

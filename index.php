@@ -42,18 +42,16 @@
                         <a class="nav-link smooth-goto" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#overview">OVERVIEW</a>
-                    </li>
-                    <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="#faq">FAQ</a>
                     </li>
-    
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="#team">TEAM</a>
                     </li>
-                    <!-- <li class="nav-item ">
-                        <a class="nav-link bg-danger rounded text-white smooth-goto but-i" href="#register">REGISTER</a>
-                    </li> -->
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/makeaton.cusat/?igshid=183k7nv268zfo">
+                            <svg  width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -122,7 +120,7 @@
                 <div class="col col-12  col-md-6 text-left line-30 text-grey text-center">
                     <div class="space-20"></div>
                     <div class="space-20"></div>
-                    <img class="img-fluid about-logo" src="img/makeaton-wire-logo.png" alt="">
+                    <!--<img class="img-fluid about-logo" src="img/makeaton-wire-logo.png" alt="">-->
                 </div>
             </div>
         </div>
@@ -145,44 +143,18 @@
                             <div class="col col-12 text-center text-md-left">
                             "പരക്കംപാച്ചിൽ", ഒരു online treasure hunt മത്സരമാണ്. കഥയിലെ നായകനായ് game - ലേക്ക് പ്രവേശിച്ച് നിങ്ങളെ കാത്തിരിക്കുന്ന ഓരോ task -ക്കും വിവേകപൂർവ്വം ആലോചിച്ച് പൂർത്തിയാക്കുക. ഓരോ ചോദ്യങ്ങൾക്കുമുള്ള ഉത്തരം നിങ്ങളുടെ ബുദ്ധിയും , വേഗതയും , technical മികവിനേയും പരീക്ഷിക്കുന്നതായിരിക്കും. Virtual ലോകം വളരെ വിശാലമാണ്. തന്നിരിക്കുന്ന സൂചനകളെ പിന്തുടരുക. അവ നിങ്ങളെ ലക്ഷ്യസ്ഥാനത്തേക്ക് നയിക്കും. നിശ്ചിത സമയത്തിനുള്ളിൽ ലക്ഷ്യസ്ഥാനത്ത് എത്തി ചേരുന്ന വിജയിക്കാണ് സമ്മാനം. 
                             </div>
-                            <div class="space-50 bg-cittic"></div>
                         </div>
                     </div>
                     <div class="col col-12  col-md-6  order-1 text-left line-30 text-grey text-center">
                         <div class="space-20"></div>
                         <div class="space-20"></div>
-                        <img class="img-fluid about-logo" src="img/cittic-wire-logo2.png" alt="">
+                        <!--<img class="img-fluid about-logo" src="img/cittic-wire-logo2.png" alt="">-->
                         <div class="space-20"></div>
                         <div class="space-20"></div>
                     </div>
                 </div>
                 <div class="space-20"></div>
                 <div class="space-20"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="overview">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 col-md-6 text-center">
-                    <img class="img-fluid about-logo" src="img/trial-wire-logo.png" alt="">
-                </div>
-                <div class="col col-12 col-md-6">
-                    <div class="space-20"></div>
-                    <div class="space-20"></div>
-                    <div class="row">
-                        <div class="col col-12 text-center text-md-left text-now h2 ">
-                            OVERVIEW 
-                        </div>
-                        <div class="col col-12 text-center text-md-left line-30 text-grey">
-                            Make-A-Ton is back with a 48 hour deadlock, on 19th and 20th of June, for all of you craving a cerebral battle.
-                            <br><br>
-                            Trailheist is an online treasure hunt contest. Step into our story as the hero, and follow the trail. Seek answers, to those questions that have always haunted you. With three exciting trails to follow, use your logical, analytical and technical skills to work your way through this maze. The virtual world is vast. Go where the clues lead you, and the ones to reach the finish line on time, win exciting prizes!
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </div>
     </section>
@@ -475,42 +447,26 @@
 
     <section>
         <div class="footer">
-            <div class="space-50 bg-black"></div>
             <div class="space-20 bg-dark2"></div>
             <div class="space-20 bg-dark2 text-center ">
                 <a href="https://www.instagram.com/makeaton.cusat/?igshid=183k7nv268zfo">
                     <svg  width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                 </a>
-                &nbsp;
-                &nbsp;
-                <a href="https://www.linkedin.com/company/makeaton">
-                    <svg width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                </a>
-                &nbsp;
-                &nbsp;
-                <a href="https://medium.com/writeabyte">
-                    <svg width="24" height="24" fill="white" fill-rule="evenodd" clip-rule="evenodd"><path d="M19 24h-14c-2.761 0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239 5 5v14c0 2.761-2.237 4.999-5 5zm.97-5.649v-.269l-1.247-1.224c-.11-.084-.165-.222-.142-.359v-8.998c-.023-.137.032-.275.142-.359l1.277-1.224v-.269h-4.422l-3.152 7.863-3.586-7.863h-4.638v.269l1.494 1.799c.146.133.221.327.201.523v7.072c.044.255-.037.516-.216.702l-1.681 2.038v.269h4.766v-.269l-1.681-2.038c-.181-.186-.266-.445-.232-.702v-6.116l4.183 9.125h.486l3.593-9.125v7.273c0 .194 0 .232-.127.359l-1.292 1.254v.269h6.274z"/></svg>
-                </a>
             </div>
             <div class="space-20 bg-dark2 text-center">
                 <br>
-                <a class="text-white" href="https://jithinksatheesh.github.io">Made with  
-                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg>
+                <a class="text-white font-weight-light" href="https://fahadshihab.github.io">
+                web platform by fs.ae :)
                 </a> 
-                
             </div>
             <div class="space-20 bg-dark2"></div>
             <div class="space-20 bg-dark2"></div>
         </div>
     </section>
-    
-
-    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
     <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
-    <script src="js/login.js"></script>
 </html>

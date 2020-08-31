@@ -7,7 +7,6 @@ body{
 .hero{
     /* background-color: rgb(205, 205, 205); */
     width: 100%;
-    /* background-image: url("../img/bg-hero3.jpg"); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -15,21 +14,6 @@ body{
 
 .text-white{
     color: white;
-}
-
-.bg-black{
-    background-color: #ff8c00;
-    background-image: url("../img/bg-hero3.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.bg-cittic{
-    background-image: url("../img/bg-circle2.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .bg-dark2{
@@ -67,7 +51,6 @@ body{
 }
 
 .secondary-hero{
-    /* background-image: url("../img/bg-hero4.jpg"); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
