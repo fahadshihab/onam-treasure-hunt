@@ -143,7 +143,7 @@
                             <div class="col col-12 text-center text-md-left h3  text-danger">
                             </div>
                             <div class="col col-12 text-center text-md-left">
-                                The Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC),the technology business incubator of Cusat, has nurtured several young startups and has supported the growth of technology in the student community. CITTIC was set up on the campus with central and state government funding to provide a vibrant, innovative and entrepreneurial environment for faculty and students to run university-linked startup companies.
+                            "പരക്കംപാച്ചിൽ", ഒരു online treasure hunt മത്സരമാണ്. കഥയിലെ നായകനായ് game - ലേക്ക് പ്രവേശിച്ച് നിങ്ങളെ കാത്തിരിക്കുന്ന ഓരോ task -ക്കും വിവേകപൂർവ്വം ആലോചിച്ച് പൂർത്തിയാക്കുക. ഓരോ ചോദ്യങ്ങൾക്കുമുള്ള ഉത്തരം നിങ്ങളുടെ ബുദ്ധിയും , വേഗതയും , technical മികവിനേയും പരീക്ഷിക്കുന്നതായിരിക്കും. Virtual ലോകം വളരെ വിശാലമാണ്. തന്നിരിക്കുന്ന സൂചനകളെ പിന്തുടരുക. അവ നിങ്ങളെ ലക്ഷ്യസ്ഥാനത്തേക്ക് നയിക്കും. നിശ്ചിത സമയത്തിനുള്ളിൽ ലക്ഷ്യസ്ഥാനത്ത് എത്തി ചേരുന്ന വിജയിക്കാണ് സമ്മാനം. 
                             </div>
                             <div class="space-50 bg-cittic"></div>
                         </div>
@@ -209,7 +209,7 @@
             <div class="space-20"></div>
             <div class="row">
                 <div class="col col-12 text-center h3 text-now">
-                   FAQ
+                സംശയനിവാരണി 
                 </div>
                 <div class="space-20"></div>
                 <div class="space-20"></div>
@@ -227,15 +227,14 @@
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
                                     
-                                    Who can participate?
+                                    ആർക്കെല്ലാം പങ്കെടുക്കാം ?
                                 </div>
                             </div>
     
                             <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
-                                <div class="card-body bg-dark2 text-white">
-                                    
-                                    anybody can participate. There is no eligibility criteria.
+                                <div class="card-body bg-dark2 text-white"> 
+                                യോഗ്യതാ മാനദന്ധങ്ങൾ ഇല്ലാത്തതു കൊണ്ട്, ആർക്ക് വേണമെങ്കിലും പങ്കെടുക്കാം.
                                 </div>
                             </div>
                         </div>
@@ -248,13 +247,13 @@
                                         <path
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
-                                    Is there a registration fee?
+                                    Registration Fees ഉണ്ടോ?
                                 </div>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body bg-dark2 text-white">
-                                    This is a free event.
+                                ഇല്ല. പ്രവേശനം സൗജന്യമാണ്. 
                                 </div>
                             </div>
                         </div>
@@ -267,13 +266,13 @@
                                         <path
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
-                                    When and where will this be held?
+                                    എപ്പോൾ, എവിടെ വച്ചായിരിക്കും നടത്തുന്നത്?
                                 </div>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
                                 <div class="card-body bg-dark2 text-white">
-                                    This is an online event and will be held from 6:00PM on 19th June to 6:00PM on 21st of June.
+                                ഇതൊരു online മത്സരം ആണ്. September 1  ചൊവ്വാഴ്ച ഉച്ചതിരിഞ്ഞ് (time ) ആരംഭിച്ച്  September 2 ബുധനാഴ്ച വൈകീട്ട് (time) ന് അവസാനിക്കുന്ന രീതിയിലാണ് മത്സരം ചിട്ടപ്പെടുത്തിയിരിക്കുന്നത്.
                                 </div>
                             </div>
                         </div>
@@ -286,16 +285,14 @@
                                         <path
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
-                                    
-                                    Will I get certificates? 
+                                    ഈ മത്സരത്തിൽ പങ്കെടുത്താൽ certificate ലഭിക്കുമോ?
                                 </div>
                             </div>
     
                             <div id="collapsefour" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body bg-dark2 text-white">
-                                   
-                                    Yes, e-certificates will be provided to those who clear at least two questions.
+                                ഈ മത്സരത്തിൽ പങ്കെടുക്കുന്നവർക്ക് സർട്ടിഫിക്കറ്റ് ലഭിക്കുന്നതല്ല.
                                 </div>
                             </div>
                         </div>
@@ -308,16 +305,14 @@
                                         <path
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
-                                    
-                                    Is it a team event? 
+                                    ഇതൊരു team event ആണോ? 
                                 </div>
                             </div>
     
                             <div id="collapsefive" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body bg-dark2 text-white">
-                                    
-                                    You can participate alone or in a team of two.
+                                ഒറ്റയ്ക്ക് അല്ലെങ്കിൽ 2 പേരടങ്ങുന്ന ഒരു team ആയും പങ്കെടുക്കാവുന്നതാണ്.
                                 </div>
                             </div>
                         </div>
@@ -330,43 +325,17 @@
                                         <path
                                             d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
                                     </svg>
-                                    I don't know how to code, is this event for me? 
+                                    ഞാൻ ആദ്യമായാണ് Treasue Hunt പോലൊരു Event -ന്റെ ഭാഗമാവുന്നത്. ഇതിൽ പങ്കെടുക്കന്നതിൽ എനിക്ക് എന്തെങ്കിലും പ്രയോജനം ഉണ്ടാകുമോ?
                                 </div>
                             </div>
     
                             <div id="collapsesix" class="collapse" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body bg-dark2 text-white">
-                                    
-                                    The questions are a mix of several domains which can be explored during the event. Existing knowledge of any domain is not a mandate.
+                                എല്ലാവർക്കും പങ്കെടുക്കാവുന്ന രീതിയിൽ, വിവിധ task-കൾ ആയിട്ടാണ് ഈ മത്സരം ചിട്ടപ്പെടുത്തിയിട്ടുള്ളത്. ഏതെങ്കിലും ഒരു പ്രത്യേക വിഷയത്തിലുള്ള അറിവോ പരിജ്ഞാനമോ ഇതിന് ആവശ്യമില്ല. വിനോദത്തിലൂടെ നിങ്ങളുടെ ബുദ്ധിസാമർത്ഥ്യം കൂടി തെളിയിക്കാനാകുന്ന വളരെ രസകരമായ ഒരു മത്സരം കൂടിയാണിത്.
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card bg-dark2 text-white">
-                            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseseven"
-                                aria-expanded="false" aria-controls="collapseseven">
-                                <div class="mb-0" class="h5">
-                                    <svg class="bi bi-caret-down-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="#ee2858"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                                    </svg>
-                                    
-                                    I'm a newbie. Is there any point in registering?
-                                </div>
-                            </div>
-    
-                            <div id="collapseseven" class="collapse" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="card-body bg-dark2 text-white">
-                                    
-                                    The questions are a mix of several domains which can be explored during the event. Existing knowledge of any domain is not a mandate. This is a great opportunity to sharpen your brain.
-                                </div>
-                            </div>
-                        </div>
-
-                        
                     </div>
                 </div>
             </div>
@@ -374,56 +343,6 @@
 
         <div class="space-50"></div>
     </section>
-
-
-    <!-- <section id="register">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 text-center h3 text-now">
-                    REGISTER
-                </div>
-            </div>
-            <div class="space-20"></div>
-            <div class="space-20"></div>
-            <div class="row d-flex justify-content-center">
-                <div class="col col-12 col-md-6 text-center text-dark">
-                    <form action="https://send.pageclip.co/pu0wAOcdjtq5qDOQMs7XnBxwAGGnxCbM/makeaton" class="pageclip-form" method="post">
-                       
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="name" value="" placeholder="Name" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="email" name="email" value="" placeholder="Email" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="phone" value="" placeholder="Phone no e.g. 8097675667" pattern="[0-9]{10}" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="occupation" value=""  placeholder="Occupation" required/>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="institution" value="" placeholder="Institution"  required/>
-                        </div>
-                    
-                       
-                        <div class="space-20"></div>
-                        <button   type="submit" class="pageclip-form__submit btn btn-danger">
-                            <span>Register</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div class="space-20"></div>
-            <div class="space-20"></div>
-            <div class="space-20"></div>
-            <div class="hr"></div>
-            <div class="space-20"></div>
-            <div class="space-20"></div>
-            <div class="space-20"></div>
-        </div>
-    </section> -->
-
-    
 
     <section id="team">
         <div class="container">
