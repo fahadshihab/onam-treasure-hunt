@@ -69,6 +69,18 @@
                     <div class="col-sm-3">
                         <span>Problem set 1</span>
                     </div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
                 </div>
             </div>
         </div>
