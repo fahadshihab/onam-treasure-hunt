@@ -57,28 +57,28 @@
             <div class="container">
                 <div class="space-50"></div>
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
                     </div>
                 </div>
