@@ -115,7 +115,7 @@
                             ABOUT
                         </div>
                         <div class="col col-12 text-center text-md-left">
-                            Make-a-Ton, in association with CITTIC, is one of the largest 24 hour open hackathon in Kerala which provides a platform for university students to build products which would lead to a better tomorrow. Make-a-Ton, since its inception, has successfully hosted two editions.
+                        Virtual ലോകത്തും പൂവിളികൾ ഉയരുന്ന ഈ ഓണക്കാലത്ത് , ഓണത്തിന്റെ ആവേശവും , മാധുര്യവും ഒട്ടും ചോരാതെ നിലനിർത്തിക്കൊണ്ട്  SCMS School of Engineering & Tecnology കാഴ്ചവയ്ക്കുന്ന " ഈ ഓണം , E- ONAM" , പരിപാടിയുടെ ഭാഗമായി ഞങ്ങൾ നടത്തുന്ന ഈ "പരക്കംപാച്ചിലി" ലേക്ക് നിങ്ങൾക്കും സ്വാഗതം . 
                         </div>
                     </div>
                 </div>
@@ -437,10 +437,10 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/akul.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/abhay.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Akul Santhosh
+                                Abhay Pisharody
                             </div>
                         
                         </div>
@@ -448,25 +448,21 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row"> <!--<a href ="https://sidshiv.co"> -->
                                 <div class="col col-12">
-                                    <a href="https://sidshiv.co" class="text-white">
-                                        <img src="img/sid.jpg" class="img-fluid rounded-r p-4" alt="">
-                                    </a>
+                                    <img src="img/abin.jpg" class="img-fluid rounded-r p-4" alt="">
                                 </div>
                             </div>
                             <div class="col col-12 text-center" >
-                                <a href="https://sidshiv.co" class="text-white">
-                                    Siddharth Shivkumar
-                                </a>
+                                Abin Antony
                             </div>
                             
                         </div>
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/farha.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/allen.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Farha Salim
+                                Allen Issac
                             </div>
                         
                         </div>
@@ -474,10 +470,10 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/akheela.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/anagha.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Akheela Sherif
+                                Anagha Mohan
                             </div>
                         
                         </div>
@@ -485,10 +481,10 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/shajaz.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/anupama.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Shajaz Hashim
+                                Anupama Jyothis
                             </div>
                         
                         </div>
@@ -496,10 +492,10 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/suhail.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/gayathri.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Suhail Rafeeq
+                                Gayathri S
                             </div>
                         
                         </div>
@@ -507,10 +503,10 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/naseem.jpeg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/aswanth.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Naseem Shah
+                                Aswanth R
                             </div>
                         
                         </div>
@@ -518,20 +514,20 @@
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/afin.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/gokul.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Afin Jo
+                                Gokul C S
                             </div>
                         
                         </div>
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
-                                    <img src="img/jithin.jpg" class="img-fluid rounded-r p-4" alt=""></div>
+                                    <img src="img/vaisakh.jpg" class="img-fluid rounded-r p-4" alt=""></div>
                             </div>
                             <div class="col col-12 text-center">
-                                Jithin K Satheesh
+                                Vaisakh Sunil Kumar
                             </div>
                         
                         </div>

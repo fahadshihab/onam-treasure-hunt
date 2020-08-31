@@ -24,7 +24,7 @@
         <!-- Here goes navbar -->
         <nav id="nav" class="navbar navbar-expand-md navbar-dark bg-dark2 fixed-top">
             <a class="navbar-brand smooth-goto text-white" href="#home">
-                പരക്കംപാച്ചിൽ 2
+                പരക്കംപാച്ചിൽ
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +33,10 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto font-weight-light">
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto active" href="#home">HOME</a>
+                        <a class="nav-link smooth-goto active" href="#home">കളിക്കളം</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#about">ABOUT</a>
+                        <a class="nav-link smooth-goto" href="#about"></a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="#overview">OVERVIEW</a>
