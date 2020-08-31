@@ -18,7 +18,7 @@ if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
         setcookie("team_code", $team_code);
         header("Location: game.php");
     } else {
-        header("Location: index.php?auth=fail");
+        header("Location: index.php");
     }
 }
 mysqli_close($conn);
