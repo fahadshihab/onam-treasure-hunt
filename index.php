@@ -71,7 +71,7 @@
                     <div class="col col-12 col-md-4 text-center">
                         <?php
                             if($_GET["auth"] == "fail"){
-                                echo '<span class="text-danger"> auth fail! </span>';
+                                echo '<script>alert("fail");</script>';
                             }
                         ?>
                         <form method="GET" action="team_login.php">
