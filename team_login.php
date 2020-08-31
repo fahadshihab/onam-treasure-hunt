@@ -14,9 +14,9 @@ if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
     $sql = "SELECT * FROM team_details WHERE team_name = '" . $team_name . "' AND team_code = '" . $team_code . "'";
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
-        header("Location: game.php");
+        #header("Location: game.php");
     } else {
-        header("Location: index.php");
+        #header("Location: index.php");
     }
 }
 mysqli_close($conn);
