@@ -13,7 +13,7 @@ function login(name, code){
         if(xhr.responseText == "0"){
             alert("utharam thettaanu!");
         }else{
-            window.location.replace("../game.html");
+            window.location.replace("https://parakkampaachil.heromanhua.com/game.html");
         }
     };
     xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, false);
