@@ -16,7 +16,7 @@ if (preg_match($validator, $team_name) && preg_match($validator, $team_code)){
     if (mysqli_num_rows($result) > 0) {
         header("Location: game.php");
     } else {
-        header("Location: index.php");
+        header("Location: index.php?auth=fail");
     }
 }
 mysqli_close($conn);

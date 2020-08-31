@@ -1,5 +1,5 @@
 <?php
-    $a = 3;
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -69,6 +69,11 @@
                     </div>
                     <div class="col col-md-4"></div>
                     <div class="col col-12 col-md-4 text-center">
+                        <?php
+                            if($_GET["auth"] == "fail"){
+                                echo '<span class="text-danger"> auth fail! </span>'
+                            }
+                        ?>
                         <form method="GET" action="team_login.php">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="login_name" name="team_name" placeholder="team name">
