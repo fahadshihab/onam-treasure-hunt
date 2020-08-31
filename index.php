@@ -457,6 +457,8 @@
                 web platform by fs.ae :)
                 </a> 
             </div>
+            <div class="space-20 bg-dark2"></div>
+            <div class="space-20 bg-dark2"></div>
         </div>
     </section>
 </body>
