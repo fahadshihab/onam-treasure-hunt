@@ -10,8 +10,8 @@ function validate_inputs(){
 function login(name, code){
     xhr = new XMLHttpRequest();
     xhr.onload = function(){
-        if(xhr.readyState === XMLHttpRequest.DONE && xhr.status == 200){
-            if(xhr.responseText == "0"){
+        if(this.readyState === XMLHttpRequest.DONE && this.status == 200){
+            if(this.responseText == "0"){
                 alert("utharam thettaanu!");
             }else{
                 window.location.replace("https://parakkampaachil.heromanhua.com/game.html");
@@ -19,5 +19,5 @@ function login(name, code){
         }
     };
     xhr.open("GET", "../php/team_login.php?team_name=" + name +"&team_code=" + code, true);
-    xhr.send(null);
+    xhr.send();
 }
