@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    $a = 3;
 ?>
 <!DOCTYPE html>
 <html lang="en">
