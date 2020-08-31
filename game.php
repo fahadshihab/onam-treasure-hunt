@@ -42,7 +42,7 @@
                         <a class="nav-link smooth-goto active" href="#home">GAMEPLAY</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="#about">SCOREBOARD</a>
+                        <a class="nav-link smooth-goto" href="scores.php">SCOREBOARD</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="logout.php">LOGOUT</a>
@@ -57,26 +57,18 @@
             <div class="container">
                 <div class="space-50"></div>
                 <div class="row">
-                    <div class="col col-12 text-center">
-                        <img src="img/man-icon.png" class="about-logo" alt="">
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
                     </div>
-                    <div class="col col-md-4"></div>
-                    <div class="col col-12 col-md-4 text-center">
-                        <form>
-                            <div class="form-group">
-                                <input class="form-control" type="text" id="login_name" name="team_name" placeholder="team name">
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="text" id="login_code" name="team_code" placeholder="team code">
-                            </div>
-                            <button class="btn btn-danger" onclick="validate_inputs()">
-                                കളി തുടങ്ങാം ...
-                            </button>
-                        </form>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
                     </div>
-                    <div class="space-20"></div>
-                    <!-- <div class="col-12 col text-center h5"></div> -->
-                    <div class="space-20"></div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>Problem set 1</span>
+                    </div>
                 </div>
             </div>
         </div>
