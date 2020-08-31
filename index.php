@@ -69,9 +69,6 @@
                     </div>
                     <div class="col col-md-4"></div>
                     <div class="col col-12 col-md-4 text-center">
-                        <?php
-                            echo "abcd";
-                        ?>
                         <form method="GET" action="team_login.php">
                             <div class="form-group">
                                 <input class="form-control" type="text" id="login_name" name="team_name" placeholder="team name">
