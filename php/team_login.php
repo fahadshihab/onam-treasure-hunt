@@ -13,11 +13,11 @@ $sql = "SELECT * FROM team_details WHERE team_name = '" . $team_name . "' AND te
 $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
   // output data of each row
-	echo "1";
+	header("Location: ../game.html");
 } else {
 	#setcookie("team_name", $team_name);
 	#setcookie("team_code", $team_code);
-	echo "0";
+	header("Location: ../index.html");
 }
 mysqli_close($conn);
 ?>
