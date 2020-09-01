@@ -58,7 +58,11 @@
                 <div class="space-50"></div>
                 <div class="row">
                     <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
+                        <?php
+                            $myfile = fopen("../onam/1.txt", "r") or die("Unable to open file!");
+                            echo fread($myfile, filesize("../onam/1.txt"));
+                            fclose($myfile);
+                        ?>
                     </div>
                     <div class="col-sm-3 p-1">
                         <span>Problem set 1</span>
