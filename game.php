@@ -107,7 +107,7 @@
                     $result = mysqli_query($conn, $sql);
                     if(mysqli_num_rows($result) > 0){
                         $row = mysqli_fetch_assoc($result);
-                        for($i = 0; $i < 7; $i++){
+                        for($i = 0; $i < 8; $i++){
                             echo file_get_contents("../onam/" . $problem_register[$i] . ".html");
                             if(empty($row[$problem_register[$i]])){
                                 break;
