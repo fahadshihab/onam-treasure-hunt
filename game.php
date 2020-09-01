@@ -96,7 +96,8 @@
                         "problem4",
                         "problem5",
                         "problem6",
-                        "problem7"
+                        "problem7",
+                        "end"
                     );
                     $conn = new mysqli($servername, $username, $password, $dbname);
                     if (!$conn) {
