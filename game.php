@@ -56,7 +56,18 @@
         <div class="hero">
             <div class="container">
                 <div class="space-50"></div>
-                <div class="row">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div class="space-20"></div>
+            <div class="space-20"></div>
+            <div class="row">
                 <div class="col col-sm-12">
                 <?php 
                 if(isset($_GET["attempt"])){
@@ -107,16 +118,6 @@
                     mysqli_close();
                     ?>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section>
-        <div class="container">
-            <div class="space-20"></div>
-            <div class="space-20"></div>
             <div class="space-20"></div>
             
             <div class="space-20"></div>
