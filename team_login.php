@@ -10,7 +10,7 @@ if (!$conn) {
 }
 $team_name = $_GET["team_name"];
 $team_code = $_GET["team_code"];
-$validator = "/^[A-Za-z0-9]+$/";
+$validator = "/^[A-Za-z0-9 ]+$/";
 if ($team_code == "" || $team_name == ""){
 	header("Location: index.php?auth=fail");
 }

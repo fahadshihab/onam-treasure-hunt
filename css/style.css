@@ -20,6 +20,11 @@ body{
     background-color: #d47c00;
 }
 
+.problem-set{
+    background-color: #a15e00;
+    min-height: 100px;
+}
+
 .text-now{
     color: #ffdb49;
 }

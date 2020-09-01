@@ -55,36 +55,52 @@
     <section id="home">
         <div class="hero">
             <div class="container">
-                <div class="space-50"></div>
-                <div class="row">
-                    <div class="col-sm-3 p-1">
-                        <?php
-                            $myfile = fopen("../onam/1.txt", "r") or die("Unable to open file!");
-                            echo fread($myfile, filesize("../onam/1.txt"));
-                            fclose($myfile);
-                        ?>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
-                    <div class="col-sm-3 p-1">
-                        <span>Problem set 1</span>
-                    </div>
+                <div class="space-20"></div>
+                <?php 
+                if(isset($_GET["attempt"])){
+                    if($_GET["attempt"] == "pass"){
+                        echo '<span class="text-success">ശേരിയുത്തരം!</span>';
+                    }else{
+                        echo '<span class="text-danger">ഉത്തരം തെറ്റാണ്</span>';
+                    }
+                }
+                ?>
+                <div class="space-20"></div>
+                <div id="accordion">
+                    <?php
+                    $servername = "localhost";
+                    $username = "maveli";
+                    $password = "maveli";
+                    $dbname = "ONAMHUNT";
+                    $solved = 0;
+                    $problem_register = array(
+                        "problem1",
+                        "problem2",
+                        "problem3",
+                        "problem4",
+                        "problem5",
+                        "problem6",
+                        "problem7"
+                    );
+                    $conn = new mysqli($servername, $username, $password, $dbname);
+                    if (!$conn) {
+                        echo "failed";
+                    }
+                    $sql = "SELECT * FROM scoreboard WHERE team_code = '" . $_SESSION["team_code"] . "'";
+                    $result = mysqli_query($conn, $sql);
+                    if(mysqli_num_rows($query) > 0){
+                        while($row = mysqli_fetch_assoc($result)) {
+                            $solved = $row["solved"];
+                        }
+                        for($i = 0; $i < 7; $i++){
+                            echo readfile("../onam/" . $problem_register[$i] . "txt");
+                            if(empty($row[$problem_register[$i]])){
+                                break;
+                            }
+                        }
+                    }
+                    ?>
+
                 </div>
             </div>
         </div>
