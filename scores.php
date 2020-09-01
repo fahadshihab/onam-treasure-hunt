@@ -19,7 +19,7 @@ session_start();
                 }
                 $sql = 'SELECT * FROM scoreboard WHERE team_code = "' . $_SESSION["team_code"] . '"';
                 $result = mysqli_query($conn, $sql);
-                if(mysqli_num_rows($query) > 0){
+                if(mysqli_num_rows($result) > 0){
                     $row = mysqli_fetch_assoc($result);
                     for($i = 0; $i < 7; $i++){
                         echo readfile("../onam/" . $problem_register[$i] . ".txt");
