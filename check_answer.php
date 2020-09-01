@@ -24,6 +24,8 @@ if($_GET["answer"] == $answers[$_GET["task"]]){
         $sql = "UPDATE scoreboard SET " . $_GET["task"] . " = SYSDATE() WHERE team_code = '" . $team_code . "'";
         $result = mysqli_query($conn, $sql);
         header("Location: game.php?attempt=pass");
+    }else{
+        header("Location: game.php?attempt=duplicate");
     }
 }else{
     header("Location: game.php?attempt=fail");
