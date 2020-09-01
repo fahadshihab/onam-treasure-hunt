@@ -13,7 +13,7 @@ $answers = array("problem1" => "thrissur", "problem2" => "angamali");
 if($_GET["answer"] == $answers[$_GET["task"]]){
     $team_name = $_SESSION["team_name"];
     $team_code = $_SESSION["team_code"];
-    $sql = "SELECT * FROM scoreboard WHERE team_code = '" . $team_code . "' AND " . $_GET["task"] " IS NULL";
+    $sql = 'SELECT * FROM scoreboard WHERE team_code = "' . $team_code . '" AND ' . $_GET["task"] . ' IS NULL';
     $result = mysqli_query($conn, $sql);
     if(mysqli_num_rows($result) > 0){
         $flag = 1;
