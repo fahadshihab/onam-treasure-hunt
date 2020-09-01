@@ -66,43 +66,40 @@
                 }
                 ?>
                 <div class="space-20"></div>
-                <div id="accordion">
-                    <?php
-                    $servername = "localhost";
-                    $username = "maveli";
-                    $password = "maveli";
-                    $dbname = "ONAMHUNT";
-                    $solved = 0;
-                    $problem_register = array(
-                        "problem1",
-                        "problem2",
-                        "problem3",
-                        "problem4",
-                        "problem5",
-                        "problem6",
-                        "problem7"
-                    );
-                    $conn = new mysqli($servername, $username, $password, $dbname);
-                    if (!$conn) {
-                        echo "failed";
+                <?php
+                $servername = "localhost";
+                $username = "maveli";
+                $password = "maveli";
+                $dbname = "ONAMHUNT";
+                $solved = 0;
+                $problem_register = array(
+                    "problem1",
+                    "problem2",
+                    "problem3",
+                    "problem4",
+                    "problem5",
+                    "problem6",
+                    "problem7"
+                );
+                $conn = new mysqli($servername, $username, $password, $dbname);
+                if (!$conn) {
+                    echo "failed";
+                }
+                $sql = "SELECT * FROM scoreboard WHERE team_code = '" . $_SESSION["team_code"] . "'";
+                $result = mysqli_query($conn, $sql);
+                if(mysqli_num_rows($query) > 0){
+                    while($row = mysqli_fetch_assoc($result)) {
+                        $solved = $row["solved"];
                     }
-                    $sql = "SELECT * FROM scoreboard WHERE team_code = '" . $_SESSION["team_code"] . "'";
-                    $result = mysqli_query($conn, $sql);
-                    if(mysqli_num_rows($query) > 0){
-                        while($row = mysqli_fetch_assoc($result)) {
-                            $solved = $row["solved"];
-                        }
-                        for($i = 0; $i < 7; $i++){
-                            echo readfile("../onam/" . $problem_register[$i] . ".txt");
-                            if(empty($row[$problem_register[$i]])){
-                                break;
-                            }
+                    for($i = 0; $i < 7; $i++){
+                        echo readfile("../onam/" . $problem_register[$i] . ".txt");
+                        if(empty($row[$problem_register[$i]])){
+                            break;
                         }
                     }
-                    mysqli_close();
-                    ?>
-
-                </div>
+                }
+                mysqli_close();
+                ?>
             </div>
         </div>
     </section>
