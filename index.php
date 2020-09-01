@@ -319,6 +319,17 @@
                 <div class="space-20"></div>
                 <div class="col col-12">
                     <div class="row">
+                    <div class="col col-12 col-md-6 col-lg-4 text-center">
+                            <div class="row">
+                                <div class="col col-12">
+                                    <a href="https://fahadshihab.github.io">
+                                    <img src="img/fahad.jpg" class="img-fluid rounded-r p-4" alt=""></div></a>
+                            </div>
+                            <div class="col col-12 text-center">
+                                <a class="text-white" href="https://fahadshihab.github.io">Fahad Shihab</a>
+                            </div>
+                        
+                        </div>
                         <div class="col col-12 col-md-6 col-lg-4 text-center">
                             <div class="row">
                                 <div class="col col-12">
@@ -413,17 +424,6 @@
                             </div>
                             <div class="col col-12 text-center">
                                 Vaisakh Sunil Kumar
-                            </div>
-                        
-                        </div>
-                        <div class="col col-12 col-md-6 col-lg-4 text-center">
-                            <div class="row">
-                                <div class="col col-12">
-                                    <a href="https://fahadshihab.github.io">
-                                    <img src="img/fahad.jpg" class="img-fluid rounded-r p-4" alt=""></div></a>
-                            </div>
-                            <div class="col col-12 text-center">
-                                <a class="text-white" href="https://fahadshihab.github.io">Fahad Shihab</a>
                             </div>
                         
                         </div>
