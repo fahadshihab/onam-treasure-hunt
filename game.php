@@ -99,6 +99,7 @@
                             }
                         }
                     }
+                    mysqli_close();
                     ?>
 
                 </div>
