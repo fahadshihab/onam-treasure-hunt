@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if (!$conn) {
     echo "failed";
 }
-$answers = array("problem1" => "thrissur", "problem2" => "angamali");
+$answers = array("problem1" => "thrissur", "problem2" => "saroja", "problem3" => "2939", "problem4" => "പരമപീഠസ്ഥാനീയ ബലിസത്‌മ വാതായനം തുറക്കട്ടെ", "problem5" => "kavaadam", "problem6" => "3.14159265359", "problem7" => "vishwapriyanatha maha bali");
 if($_GET["answer"] == $answers[$_GET["task"]]){
     $team_name = $_SESSION["team_name"];
     $team_code = $_SESSION["team_code"];

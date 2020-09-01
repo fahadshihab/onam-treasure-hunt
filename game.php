@@ -41,9 +41,9 @@
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto active" href="#home">GAMEPLAY</a>
                     </li>
-                    <li class="nav-item ">
+                    <!--<li class="nav-item ">
                         <a class="nav-link smooth-goto" href="scores.php">SCOREBOARD</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="logout.php">LOGOUT</a>
                     </li>
@@ -55,8 +55,9 @@
     <section id="home">
         <div class="hero">
             <div class="container">
-                <div class="space-20"></div>
+                <div class="space-50"></div>
                 <div class="row">
+                <div class="col col-sm-12">
                 <?php 
                 if(isset($_GET["attempt"])){
                     if($_GET["attempt"] == "pass"){
@@ -68,6 +69,7 @@
                     }
                 }
                 ?>
+                </div>
                 </div>
                 <div class="space-20"></div>
                 <div class="accordion" id="accordionExample">
