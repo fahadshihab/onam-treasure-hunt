@@ -68,7 +68,7 @@
                 }
                 ?>
                 <div class="space-20"></div>
-                <div class="accordion">
+                <div class="accordion" id="accordionExample">
                     <?php
                     $servername = "localhost";
                     $username = "maveli";
