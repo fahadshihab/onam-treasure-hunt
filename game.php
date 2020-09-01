@@ -56,6 +56,7 @@
         <div class="hero">
             <div class="container">
                 <div class="space-20"></div>
+                <div class="row">
                 <?php 
                 if(isset($_GET["attempt"])){
                     if($_GET["attempt"] == "pass"){
@@ -67,6 +68,7 @@
                     }
                 }
                 ?>
+                </div>
                 <div class="space-20"></div>
                 <div class="accordion" id="accordionExample">
                     <?php
