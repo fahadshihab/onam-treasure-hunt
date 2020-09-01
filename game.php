@@ -96,7 +96,7 @@
                         }
                     }
                 }else{
-                    echo "onnum kitteela";
+                    echo "<span>onnum kitteela</span>";
                 }
                 mysqli_close();
                 ?>
