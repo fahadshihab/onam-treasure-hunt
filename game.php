@@ -71,7 +71,6 @@
                 $username = "maveli";
                 $password = "maveli";
                 $dbname = "ONAMHUNT";
-                $solved = 0;
                 $problem_register = array(
                     "problem1",
                     "problem2",
