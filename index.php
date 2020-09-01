@@ -423,7 +423,7 @@
                                     <img src="img/fahad.jpg" class="img-fluid rounded-r p-4" alt=""></div></a>
                             </div>
                             <div class="col col-12 text-center">
-                                <a href="https://fahadshihab.github.io">Fahad Shihab</a>
+                                <a class="text-white" href="https://fahadshihab.github.io">Fahad Shihab</a>
                             </div>
                         
                         </div>
