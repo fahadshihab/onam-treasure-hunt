@@ -60,7 +60,7 @@
                 if(isset($_GET["attempt"])){
                     if($_GET["attempt"] == "pass"){
                         echo '<span class="text-success">ശേരിയുത്തരം!</span>';
-                    }else if($_GET["attempt" == "fail"]){
+                    }else if($_GET["attempt"] == "fail"){
                         echo '<span class="text-danger">ഉത്തരം തെറ്റാണ്</span>';
                     }else{
                         echo '<span class="text-success">ഇതിനു ശരിയുത്തരം നേരത്തെ തന്നതാണ്.</span>';
