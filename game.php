@@ -93,7 +93,7 @@
                             $solved = $row["solved"];
                         }
                         for($i = 0; $i < 7; $i++){
-                            echo readfile("../onam/" . $problem_register[$i] . "txt");
+                            echo readfile("../onam/" . $problem_register[$i] . ".txt");
                             if(empty($row[$problem_register[$i]])){
                                 break;
                             }
