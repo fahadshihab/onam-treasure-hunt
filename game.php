@@ -92,7 +92,7 @@
                     if(mysqli_num_rows($result) > 0){
                         $row = mysqli_fetch_assoc($result);
                         for($i = 0; $i < 7; $i++){
-                            echo readfile("../onam/" . $problem_register[$i] . ".html");
+                            echo file_get_contents("../onam/" . $problem_register[$i] . ".html");
                             if(empty($row[$problem_register[$i]])){
                                 break;
                             }
