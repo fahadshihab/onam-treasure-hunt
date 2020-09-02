@@ -38,12 +38,12 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto font-weight-light">
-                    <li class="nav-item ">
-                        <a class="nav-link smooth-goto active" href="#home">GAMEPLAY</a>
-                    </li>
                     <!--<li class="nav-item ">
-                        <a class="nav-link smooth-goto" href="scores.php">SCOREBOARD</a>
+                        <a class="nav-link smooth-goto active" href="#home">GAMEPLAY</a>
                     </li>-->
+                    <li class="nav-item ">
+                        <a class="nav-link smooth-goto" href="scores.php">SCOREBOARD</a>
+                    </li>
                     <li class="nav-item ">
                         <a class="nav-link smooth-goto" href="logout.php">LOGOUT</a>
                     </li>
