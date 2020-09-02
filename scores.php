@@ -137,6 +137,7 @@
                                 }
                                 echo "</tr>";
                                 $k++;
+                                $date = [];
                             }
                         }
                         mysqli_close();
