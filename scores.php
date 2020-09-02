@@ -115,7 +115,7 @@
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
                                 for($i=0; $i<1; $i++){
-                                    $date[$i] = NULL;
+                                    $date[$i] = 0;
                                     /*
                                     if($row[$problem_register[$i]] != NULL){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
@@ -129,7 +129,7 @@
                                 <td>{$row['team_name']}</td>
                                 ";
                                 for($i=0; $i<7; $i++){
-                                    if(date[$i] != NULL){
+                                    if(date[$i] > 0){
                                         $formatted_date = date("j M, H:i:s", $date[$i]);
                                         echo "<td>{$formatted_date}</td>";
                                     }else{
