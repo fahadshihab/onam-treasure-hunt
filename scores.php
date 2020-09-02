@@ -129,7 +129,7 @@
                                 <td>{$row['team_name']}</td>
                                 ";
                                 for($i=0; $i<7; $i++){
-                                    if(isset(date[$i])){
+                                    if(date[$i] != NULL){
                                         $formatted_date = date("j M, H:i:s", $date[$i]);
                                         echo "<td>{$formatted_date}</td>";
                                     }else{
