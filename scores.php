@@ -113,12 +113,12 @@
                         $sql="select team_details.team_name, scoreboard.* from scoreboard inner join team_details on scoreboard.team_code = team_details.team_code where solved is null order by -problem7 desc, -problem6 desc, -problem5 desc, -problem4 desc, -problem3 desc, -problem2 desc, -problem1 desc";
                         $result = mysqli_query($conn, $sql);
                         if(mysqli_num_rows($result) > 0){
-                            echo "
+                            while($row = mysqli_fetch_assoc($result)){
+                                echo "
                                 <tr>
                                 <th scope='row'>{$k}</th>
                                 <td>{$row['team_name']}</td>
                                 ";
-                            while($row = mysqli_fetch_assoc($result)){
                                 for($i=0; $i<7; $i++){
                                     if(isset($row[$problem_register[$i]])){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
