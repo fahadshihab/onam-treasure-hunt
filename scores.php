@@ -134,7 +134,7 @@
                                 }
                                 echo "</tr>";
                                 $k++;
-                            }s
+                            }
                         }
                         mysqli_close();
                         ?>
