@@ -74,7 +74,7 @@
     </div>
             <div class="space-20"></div>
             <div class="row justify-content-center">
-                <table class="table table-bordered">
+                <table class="table table-bordered table-dark">
                     <thead>
                         <tr>
                             <th scope="col">Rank</th>
@@ -134,7 +134,7 @@
                                 }
                                 echo "</tr>";
                                 $k++;
-                            }
+                            }s
                         }
                         mysqli_close();
                         ?>
