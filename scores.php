@@ -115,7 +115,7 @@
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
                                 for($i=0; $i<7; $i++){
-                                    if(isset($row[$problem_register[$i]])){
+                                    if(isset($row[$problem_register[$i]]) || $row[$problem_register[$i]]!=0){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
                                         $date[$i] += 19800;
                                     }else{
