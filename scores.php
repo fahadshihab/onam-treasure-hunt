@@ -117,6 +117,9 @@
                                 for($i=0; $i<7; $i++){
                                     if(isset($row[$problem_register[$i]])){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
+                                        $date[$i] += 19800;
+                                    }else{
+                                        $date[$i] = NULL;
                                     }
                                 }
                                 echo "
