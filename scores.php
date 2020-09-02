@@ -124,7 +124,7 @@
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
                                         $date[$i] += 19800;
                                         $formatted_date = date("j M, H:i:s", $date[$i]);
-                                        echo "<td>{$date[$i]}</td>";
+                                        echo "<td>{$formatted_date}</td>";
                                     }else{
                                         $date[$i] = 0;
                                         echo "<td> -- </td>";
