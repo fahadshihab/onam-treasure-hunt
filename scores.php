@@ -73,8 +73,8 @@
                     <h1 class="text-now">SCOREBOARD</h1>
     </div>
             <div class="space-20"></div>
-            <div class="row justify-content-center">
-                <table class="table-bordered table-responsive">
+            <div class="table-responsive">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">Rank</th>
