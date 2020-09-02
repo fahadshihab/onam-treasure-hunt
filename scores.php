@@ -114,14 +114,12 @@
                         $result = mysqli_query($conn, $sql);
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
-                                for($i=0; $i<1; $i++){
+                                for($i=0; $i<7; $i++){
                                     $date[$i] = 0;
-                                    /*
                                     if($row[$problem_register[$i]] != NULL){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
                                         $date[$i] += 19800;
                                     }
-                                    */
                                 }
                                 echo "
                                 <tr>
