@@ -74,7 +74,7 @@
     </div>
             <div class="space-20"></div>
             <div class="row justify-content-center">
-                <table class="table-responsive">
+                <table class="table">
                     <thead>
                         <tr>
                             <th scope="col">Rank</th>
