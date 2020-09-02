@@ -130,7 +130,7 @@
                                 for($i=0; $i<7; $i++){
                                     if(date[$i] == 0){
                                         $formatted_date = date("j M, H:i:s", $date[$i]);
-                                        echo "<td>{$formatted_date}</td>";
+                                        echo "<td>{$date[$i]}</td>";
                                     }else{
                                         echo "<td> -- </td>";
                                     }
