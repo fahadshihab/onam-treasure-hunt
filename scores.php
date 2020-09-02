@@ -123,7 +123,7 @@
                                     if(isset($row[$problem_register[$i]])){
                                         $date[$i] = strtotime($row[$problem_register[$i]]);
                                         $date[$i] += 19800;
-                                        $formatted_date = date("j M, H:i:s", $date[$i]);
+                                        $formatted_date = date("j M, g:i:s a", $date[$i]);
                                         echo "<td>{$formatted_date}</td>";
                                     }else{
                                         $date[$i] = 0;
