@@ -38,9 +38,9 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto font-weight-light">
-                    <li class="nav-item ">
+                    <!--<li class="nav-item ">
                         <a class="nav-link smooth-goto active" href="game.php">GAMEPLAY</a>
-                    </li>
+                    </li>-->
                     <!--<li class="nav-item ">
                         <a class="nav-link smooth-goto" href="scores.php">SCOREBOARD</a>
                     </li>-->

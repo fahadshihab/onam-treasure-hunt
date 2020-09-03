@@ -102,7 +102,7 @@ var x = setInterval(function() {
 </script>
             </div>
                 <div class="col col-sm-12">
-                <?php 
+                <?php
                 if(isset($_GET["attempt"])){
                     if($_GET["attempt"] == "pass"){
                         echo '<span class="text-success">ശേരിയുത്തരം!</span>';
@@ -151,6 +151,7 @@ var x = setInterval(function() {
                     }
                     mysqli_close();
                     ?>
+
                 </div>
             <div class="space-20"></div>
             
