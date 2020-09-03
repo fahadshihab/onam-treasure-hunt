@@ -23,12 +23,12 @@ if($_GET["answer"] == $answers[$_GET["task"]]){
     if($flag == 1){
         $sql = "UPDATE scoreboard SET " . $_GET["task"] . " = SYSDATE() WHERE team_code = '" . $team_code . "'";
         $result = mysqli_query($conn, $sql);
-        header("Location: game.php?attempt=pass");
+        header("Location: scoreboard.php");
     }else{
-        header("Location: game.php?attempt=duplicate");
+        header("Location: scoreboard.php");
     }
 }else{
-    header("Location: game.php?attempt=fail");
+    header("Location: scoreboard.php");
 }
 mysqli_close($conn);
 ?>
